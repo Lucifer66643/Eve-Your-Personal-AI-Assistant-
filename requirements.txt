@@ -1,0 +1,9 @@
+speechrecognition
+pyttsx3
+pyaudio
+transformers
+torch
+blynklib
+wikipedia-api
+pyautogui
+requests
