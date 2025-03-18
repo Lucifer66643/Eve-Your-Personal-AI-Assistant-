@@ -2,7 +2,7 @@ import google.generativeai as genai
 
 class Gemini:
     def __init__(self,  model_name):
-        genai.configure(api_key="API_key")
+        genai.configure(api_key="API_Key")
         self.model = genai.GenerativeModel(model_name)
 
     def generate_code(self, prompts):
